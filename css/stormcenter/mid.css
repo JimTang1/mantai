@@ -1,0 +1,45 @@
+
+@media only screen and (min-width:555px){
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .header .motto {
+        margin: auto;
+    }
+
+    nav{
+        max-width: 100%;
+    }
+
+    .navigation{
+        grid-template-columns: repeat(6,auto);
+    }
+
+    .navigation li{
+        display: block;
+    }
+
+    .navigation li a{
+        text-align: center;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        margin: 0 auto;
+        grid-gap:1px;
+    }
+
+    /*---------------------- Form ------------------------*/
+form{
+    width:500px;
+}
+
+}

@@ -1,0 +1,169 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color:#FAEBD7;
+    color: burlywood;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+
+.header{
+    display: flex;
+    
+}
+
+.header h1{
+    font-size: 23px;
+    margin: 0px;
+}
+
+.header .motto{
+    margin: auto;
+}
+
+.header .motto span{
+    font-family: 'Dancing Script', cursive;
+}
+
+nav .ham{
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+
+.wayfinding{
+    background: burlywood;
+}
+
+main{
+    text-align: center;
+}
+.contact{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+footer{
+    font-size: 12px;
+}
+
+footer h1{
+    color:black;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+nav{
+    margin: 0 auto;
+    max-width: 555px;
+    background-color: #FAEBD7;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.navigation{
+    list-style:none;
+    padding:0;
+    display: grid;
+    grid-template-columns: auto;    
+    margin:auto;
+
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation a:focus{
+    display: block;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    color: white;
+    background-color: burlywood;
+}
+
+.navigation.responsive li{
+    display: block;
+}
+
+.legal{
+    padding: 10px 0;
+    margin: 0;
+}
+
+.highlight{
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+/*---------------------- Form ------------------------*/
+form{
+    margin-top: 35px;
+    border-style: groove;
+    display: inline-grid;
+    text-align: center;
+    width: auto;
+    background-color: #FAEBD7;
+}
+
+label{
+    font-family: 'Potta One', cursive;
+    margin: 10px 14px;
+    font-size: 15px;
+}
+
+input{
+    
+    font-size: 15px;
+    padding: 5px 25px;
+    margin: 5px 70px;
+}
+
+
+select{
+    font-size: 15px;
+    padding: 5px 5px;
+    margin: 5px 70px;
+}
+
+.danger input{
+    margin: 0;
+}
+
+button{
+    padding: 10px 10px;
+    font-family: 'Potta One', cursive;
+    background-color: lightgrey;
+    margin: 20px 80px;
+}
+button:hover{
+    background-color: grey;
+}
+
+
+textarea{
+    margin: 5px 25px;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Potta One', cursive;
+}

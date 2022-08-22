@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gallery/main.css">
+    <link rel="stylesheet" href="css/gallery/mid.css">
+    <link rel="stylesheet" href="css/gallery/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="portfolioImage/head.jpg" alt="logo" class="logo">
+            <div class="motto">
+                <h1>Man Tai Chow's Portfolio</h1>
+                <span>hi friend, welcome to my protfolio</span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" class="ham">&#9776;</a></li>
+            <li><a href='./index.html' class="link">Home</a></li>
+            <li><a href='./GraphicDesign.html' class="link">Graphic Design</a></li>
+            <li><a href='#' class="wayfinding">3D Design</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>3D Design</h1>
+        <section class="grid">
+            <div class = "border">
+                <img loading='lazy' data-src="./portfolioImage/3D/Building.jpg" alt="" class = "image1">
+                <h3>Building</h3>
+                <p>something</p>
+            </div>
+            
+            <div class = "border">
+                <img loading='lazy' data-src="./portfolioImage/3D/Guitar1.jpg" alt="" class = "image2">
+                <h3>Guitar</h3>
+                <p>something</p>
+            </div>
+            <div class = "border">
+                <img loading='lazy' data-src="./portfolioImage/3D/lego1.jpg" alt="" class = "image3">
+                <h3>lego</h3>
+                <p>something</p>
+            </div>
+            <div class = "border">
+                <img loading='lazy' data-src="./portfolioImage/3D/warehouse1.jpg" alt="" class = "image4">
+                <h3>warehouse</h3>
+                <p>something</p>
+            </div>
+        </section>
+        <br>
+    </main>
+
+    <footer>
+        <p class="legal">&copy; <span id='copyrightyear'></span> | Wei Chun Tang | WDD230 Assignment | Click me: <a
+                href="https://github.com/JimTang1/jimtang1.github.io"> GitHub</a></p><br>
+        <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
+        
+    </footer>
+    <script src="script/gallery.js"></script>
+    <script src="script/lazy-load.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Dancing Script', 
+                    'Josefin Slab',
+                    'Saira Condensed',
+                    'Potta One',
+                    'Dancing Script',
+                    'Saira Condensed'
+                ]
+            }
+        });
+    </script>
+
+</body>
+
+</html>

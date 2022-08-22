@@ -1,0 +1,40 @@
+form{
+    margin-top: 35px;
+    border-style: solid;
+    display: inline-grid;
+    text-align: center;
+    width: 550px;
+}
+
+label{
+    font-family: 'Potta One', cursive;
+    margin: 10px 5px;
+    font-size: 15px;
+}
+
+input{
+    margin: 5px 105px;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+select{
+    margin: 5px 105px;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+button{
+    margin: 20px 225px;
+    padding: 10px 10px;
+    font-family: 'Potta One', cursive;
+}
+
+textarea{
+    margin: 5px 25px;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Potta One', cursive;
+}

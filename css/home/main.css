@@ -1,0 +1,170 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color:#FAEBD7;
+    color: burlywood;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+.event{
+    text-align: start;
+    margin-left: 80px;
+}
+.header{
+    display: flex;
+    
+}
+
+.header h1{
+    font-size: 23px;
+    margin: 0px;
+}
+
+.header .motto{
+    margin: auto;
+}
+
+.header .motto span{
+    font-family: 'Dancing Script', cursive;
+}
+
+nav .ham{
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+
+.wayfinding{
+    background: burlywood;
+}
+
+main{
+    text-align: center;
+}
+
+.contact{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+    
+}
+
+footer{
+    font-size: 12px;
+}
+
+footer h1{
+    color:black;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+nav{
+    margin: 0 auto;
+    max-width: 555px;
+    background-color: #FAEBD7;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.navigation{
+    list-style:none;
+    padding:0;
+    display: grid;
+    grid-template-columns: auto;    
+    margin:auto;
+
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation a:focus{
+    display: block;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    color: white;
+    background-color: burlywood;
+}
+
+.navigation.responsive li{
+    display: block;
+}
+
+.legal{
+    padding: 10px 0;
+    margin: 0;
+}
+
+.highlight{
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+section{
+    text-align: center;
+    margin: 5px 25px;
+    background-color: #FAEBD7;
+    border-style: ridge;
+    
+}
+
+div{
+    margin: auto;
+}
+
+.content{
+    max-width: 400px;
+}
+
+h2{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin:0;
+    padding: 5px;
+}
+
+p{
+    font-family: 'Saira Condensed';
+    margin: 5px;
+}
+
+span{
+    font-family: 'Josefin Slab';
+}
+
+
+img{
+    margin: 15px;
+  }
+
+
+.nameTag{
+    padding-left: 5px;
+}
+
+.little{
+    padding-left: 5px;
+}
+
+.intro {
+    padding-left: 5px;
+}

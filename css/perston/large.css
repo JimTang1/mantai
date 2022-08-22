@@ -1,0 +1,106 @@
+@media only screen and (min-width: 1000px){
+    header, footer{
+        max-width: 1500px;
+        margin: auto;
+    }
+    
+    nav{
+        max-width:1500px;
+    }
+    .banner{
+        font-size: 40px;
+    }
+
+    .today{
+        font-size: 24px;
+    }
+
+    main{
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    main h1{
+        font-size: 50px;
+    }
+    
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+    }
+    td{
+        font-size: 30px;
+    }
+    
+    .navigation{
+        font-size: 20px;
+    }
+    .header .motto{
+        margin:auto;
+    }
+    .motto h1{
+        font-size: 23px;
+    }
+
+    .motto span{
+        font-size: 25px;
+        margin: inherit;
+    }
+
+    main .relay{
+        position: relative;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    table th{
+        font-size: 30px;
+    }
+  
+    .weather-sum{
+        position: absolute;
+        background: none;
+        color: white;
+        width: 285px;
+        left: 5%;
+        top: 5%;
+        background-color: #008B8B;
+        opacity:0.5;
+        font-size: 20px;
+    }
+    
+    .hero-img, .forecast, .art, .contact {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .art-content{
+        display: flex;
+    }
+
+    .contact-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }   
+    
+    .map{
+        width: 50%;
+        margin: auto;
+    }
+
+    .text-area{
+        width: 50%;
+        margin: auto;
+    }
+    footer{
+        font-size: 17px;
+    }
+   
+    .sand-img{
+        width: 600px;
+    }
+}

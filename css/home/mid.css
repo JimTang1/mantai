@@ -1,0 +1,45 @@
+
+@media only screen and (min-width:555px){
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .header .motto {
+        margin: auto;
+    }
+
+    nav{
+        max-width: 100%;
+    }
+
+    .navigation{
+        
+        grid-template-columns: repeat(6,auto);
+    }
+
+    .navigation li{
+        display: block;
+    }
+
+    .navigation li a{
+        text-align: center;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .content{
+        max-width: 720px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      section:nth-child(odd) {
+          flex-direction: row-reverse;
+      }
+}

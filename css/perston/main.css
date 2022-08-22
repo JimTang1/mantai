@@ -1,0 +1,213 @@
+
+header, footer{
+    background-color:#FAEBD7;
+    color: burlywood;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+
+.header{
+    display: flex;
+    
+}
+
+.header h1{
+    font-size: 23px;
+    margin: 0px;
+}
+
+.header .motto{
+    margin: auto;
+}
+
+.header .motto span{
+    font-family: 'Dancing Script', cursive;
+}
+
+nav .ham{
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+
+.wayfinding{
+    background: burlywood;
+}
+
+main{
+    text-align: center;
+}
+main h1{
+    font-family: 'Josefin Slab', serif;
+}
+
+main .banner{
+    font-family: 'Saira Condensed';
+    color: brown;
+    font-style: oblique;
+    border-style: double;
+}
+
+main .today{
+    font-family: 'Saira Condensed';
+}
+
+section{
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero-img{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.hero-img .sand{
+    width: 100%;
+}
+
+.weather-sum{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+    text-align: left;
+    
+}
+
+.weather-sum h2{
+    text-align: center;
+}
+
+.weather-sum .weather-content{
+    display: flex;
+    text-align: end;
+}
+
+.weather-sum .weather-content .temp{
+    width: 130px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    font-size: 11px;
+}
+
+td{
+    font-size: 15px;
+}
+
+.forecast{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.art{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+
+}
+
+.sand-img{
+    width: 100%;
+}
+.contact{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+footer{
+    font-size: 12px;
+}
+
+footer h1{
+    color:black;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+nav{
+    margin: 0 auto;
+    max-width: 555px;
+    background-color: #FAEBD7;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.navigation{
+    list-style:none;
+    padding:0;
+    display: grid;
+    grid-template-columns: auto;    
+    margin:auto;
+
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation a:focus{
+    display: block;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    color: white;
+    background-color: burlywood;
+}
+
+.navigation.responsive li{
+    display: block;
+}
+
+.legal{
+    padding: 10px 0;
+    margin: 0;
+}
+
+.highlight{
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.icon{
+    width: 50px;
+    border-radius: 200px;
+}
+
+/* .text-area{
+    display: flex;
+} */
+
+
+.infor{
+    color:black;
+}
+
+.infor h3{
+    font-size: 18px;
+}
+
+.infor p{
+    font-size: 13px;
+}

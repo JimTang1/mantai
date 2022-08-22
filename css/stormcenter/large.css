@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1000px){
+    header, footer{
+        max-width: 1500px;
+        margin: auto;
+    }
+    
+    nav{
+        max-width:1500px;
+    }
+    .banner{
+        font-size: 40px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0 auto;
+        grid-gap:1px;
+    }
+
+    main{
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    main h1{
+        font-size: 50px;
+    }
+    
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+    }
+    
+    .navigation{
+        font-size: 20px;
+    }
+    .header .motto{
+        margin:auto;
+    }
+
+    footer{
+        font-size: 17px;
+    }
+}
