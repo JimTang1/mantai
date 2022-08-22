@@ -5,8 +5,8 @@ body{
 }
 
 header, footer{
-    background-color:#FAEBD7;
-    color: burlywood;
+    background-color:black;
+    color: white;
     text-align: center;
     font-family: 'Potta One', cursive;
 }
@@ -41,7 +41,7 @@ nav .ham{
 }
 
 .wayfinding{
-    background: burlywood;
+    background: white;
 }
 
 main{
@@ -70,7 +70,7 @@ footer h1{
 nav{
     margin: 0 auto;
     max-width: 555px;
-    background-color: #FAEBD7;
+    background-color: black;
     font-family: 'Saira Condensed', sans-serif;
 }
 
@@ -96,13 +96,14 @@ nav{
     padding: 0.75em;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color:gray;
     font-weight: bold;
 }
 
 .navigation a:hover{
-    color: white;
-    background-color: burlywood;
+    color: black;
+    background-color: white;
+    /* background-color: burlywood; */
 }
 
 .navigation.responsive li{

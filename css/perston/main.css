@@ -1,7 +1,8 @@
 
+
 header, footer{
-    background-color:#FAEBD7;
-    color: burlywood;
+    background-color:black;
+    color: white;
     text-align: center;
     font-family: 'Potta One', cursive;
 }
@@ -33,8 +34,9 @@ nav .ham{
 }
 
 .wayfinding{
-    background: burlywood;
+    background: white;
 }
+
 
 main{
     text-align: center;
@@ -167,12 +169,12 @@ nav{
     padding: 0.75em;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color:white;
     font-weight: bold;
 }
 
 .navigation a:hover{
-    color: white;
+    color: red;
     background-color: burlywood;
 }
 

@@ -4,9 +4,10 @@ body{
     padding: 0;
 }
 
+
 header, footer{
-    background-color:#FAEBD7;
-    color: burlywood;
+    background-color:black;
+    color: white;
     text-align: center;
     font-family: 'Potta One', cursive;
 }
